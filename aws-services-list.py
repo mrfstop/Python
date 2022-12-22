@@ -17,9 +17,9 @@ print("Top 10 used AWS Services: ")
 print(aws_services)
 print("Total of most used services: ", len(aws_services))
 
-# 4) Remove two services from the list by name or by list
-aws_services[6:] = []
-del aws_services[5]
+# 4) Remove 5 services from the list by name or by list
+aws_services[9:] = []
+del aws_services[1]
 
 # 5) Print new list and the new length
 print("Top 5 used AWS Services: ")
