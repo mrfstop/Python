@@ -22,6 +22,6 @@ aws_services[9:] = []
 del aws_services[1]
 
 # 5) Print new list and the new length
-print("Top 5 used AWS Services: ")
+print("Top 8 used AWS Services: ")
 print(aws_services)
 print("Total of most used AWS Services: ", len(aws_services))
