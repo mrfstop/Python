@@ -31,12 +31,10 @@ if number < 0:
 elif number > 0:
     print()
 
-
 print("##########################")
 print("   EC2 Instance Names  ")
 print("##########################")
 print()
-
 
 for _ in range(1, number + 1):
     EC2_unique_name = department + "-" + string_generator()
